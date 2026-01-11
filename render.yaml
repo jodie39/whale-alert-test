@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: whale-alert-backend
+    env: python
+    buildCommand: ""
+    startCommand: python monitor.py
